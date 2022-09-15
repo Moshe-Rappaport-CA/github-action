@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e
-
+echo $HOME
 export KS_SKIP_UPDATE_CHECK=true
 if [ ! -z "$INPUT_FRAMEWORKS" ] && [ ! -z "$INPUT_CONTROLS" ]; then
 echo "Framework and Control is specified. Please specify either one of them or neither"
