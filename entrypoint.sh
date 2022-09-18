@@ -36,4 +36,6 @@ COMMAND="kubescape scan $FRAMEWORKS_CMD $CONTROLS_CMD $FILES $ACCOUNT_CMD --fail
 echo $COMMAND
 
 eval $COMMAND
+pwd
+ls -l
 
